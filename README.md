@@ -3,6 +3,7 @@
 
 By: John Sanford and Claus Olesen
 
+<details><summary>Table of Contents</summary>
  - [Online Help](#online-help)
  - [Pre-Check](#pre-check)
  - [Set Nozzle Distance](#set-nozzle-distance)
@@ -12,7 +13,7 @@ By: John Sanford and Claus Olesen
  - [Advanced Procedures](#advanced-procedures)
  - [Maintenance](#maintenance)
  - [Revision History](#revision-history)
-
+</details>
 
 ----------
 
