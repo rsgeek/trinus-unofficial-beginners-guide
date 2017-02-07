@@ -3,7 +3,15 @@
 
 By: John Sanford and Claus Olesen
 
-[TOC]
+ - [Online Help](#online-help)
+ - [Pre-Check](#pre-check)
+ - [Set Nozzle Distance](#set-nozzle-distance)
+ - [First Print](#first-print)
+ - [Printing Your Own Models](#printing-your-own-models)
+ - [Laser Engraving](#laser-engraving)
+ - [Advanced Procedures](#advanced-procedures)
+ - [Maintenance](#maintenance)
+ - [Revision History](#revision-history)
 
 
 ----------
