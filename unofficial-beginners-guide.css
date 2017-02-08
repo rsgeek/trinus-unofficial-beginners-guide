@@ -21,16 +21,16 @@ body {
 }
 
 a {
-  color: #0645ad;
+  color: #4e91ad;
   text-decoration: none;
 }
 
 a:visited {
-  color: #0b0080;
+  color: #4e91ad;
 }
 
 a:hover {
-  color: #06e;
+  color: #79bedb;
 }
 
 a:active {
@@ -96,6 +96,7 @@ h2 {
   font-size: 2em;
   color: #025196;
   margin-left: -40px;
+  border-bottom: 1px solid #ddd;
 }
 
 h3 {
@@ -128,6 +129,15 @@ blockquote {
   margin: 0;
   padding-left: 3em;
   border-left: 0.5em #EEE solid;
+  font-size: 0.9em;
+}
+
+blockquote h5 {
+  margin-bottom: 5px;
+}
+
+blockquote p {
+  margin: 0;
 }
 
 hr {
@@ -265,8 +275,11 @@ table td {
 }
 
 .author {
-  font-size: 1.2em;
-  text-align: center;
+  font-size: 1em;
+  text-align: right;
+  color: #aaa;
+  margin-top: -20px;
+  padding-right: 10px;
 }
 
 @media only screen and (min-width: 480px) {
@@ -344,4 +357,21 @@ table td {
   h2, h3 {
     page-break-after: avoid;
   }
+}
+
+
+
+
+/* TESTING ONLY - REMOVE WHEN COMPLETE*/
+a span {
+  display: block;
+}
+
+blockquote div {
+  margin-top: 20px;
+}
+
+blockquote em,
+ul li div em {
+  display: block;
 }

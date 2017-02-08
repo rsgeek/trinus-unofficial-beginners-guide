@@ -1,6 +1,6 @@
 # Trinus 3D Printer *The Unofficial Beginners Guide*
 
-By: John Sanford and Claus Olesen
+<div class="author">By: John Sanford and Claus Olesen</div>
 
 * [Online Help](#online-help)
     * [Getting Started Videos](#getting-started-videos)
