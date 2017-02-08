@@ -19,7 +19,8 @@ Before loading up your SD card with any files, it’s recommended to reformat it
 I think for this one, it’s better explained in a video format. So here’s a detailed video on loading filament into the Trinus. A [quick tip version](https://youtu.be/7yxVfIXOCTI) is also available on the same YouTube channel, if you just want the 1min quick and dirty walkthrough.
 
 **Breakdown: Trinus - Loading Filament** <br/>
-[https://youtu.be/oYl3rGYUAbo <span>**[ INSERT IMAGE ]**</span>
+[https://youtu.be/oYl3rGYUAbo
+![Loading filament breakdown video](chapter-05-first-print/img/loading-filament-video-screenshot.png)
 ](https://youtu.be/oYl3rGYUAbo)
 
 
@@ -29,7 +30,9 @@ I think for this one, it’s better explained in a video format. So here’s a d
 
 
 ### Download Pre-configured Test File
-From the Download section, we’ll start by grabbing the Pokemon Autoprint test file.
+From the [Download](#download-it) section, we’ll start by grabbing the **Pokemon Autoprint** test file.
+
+[![Forums download section](chapter-05-first-print/img/forums-downloads-essential-files.png)](#download-it)
 
 
 ### Start Printing
@@ -42,16 +45,16 @@ From the Download section, we’ll start by grabbing the Pokemon Autoprint test 
 * Now place the SD Card into your printer and push down until it clicks into place. This should cause the Printer to beep twice, telling you it found the "autoprint.pcode" file and it's starting the print.
 * After the printing process begins, the extruder needs to heat up to temperature before it starts, you want to pay attention to the first couple layers of filament.
 * If the first couple layers aren't sticking to the bed, like the extruder is just dragging them around, you need to eject to the SD card so that the printer stops right away. You want the first layer to have a flat top, but not so flat that you can can see the build plate underneath it (unless you are using transparent filaments, then that’s a different story).
-* Here’s an example of a good first layer <div>**[ INSERT IMAGE ]** *Image provided by Samuel Irons*</div>
-* Here’s a couple examples of bad first layers. The ones on the left and right had barely enough sticking power to keep it from sticking to the nozzle, but the one in the center wasn’t so lucky. This is why you want to ensure the nozzle is exactly the right distance from the build plate. If you run into these type of issues you may need to go back to the Set Nozzle Distance section and adjust some more. <div>**[ INSERT IMAGE ]**</div>
+* Here’s an example of a good first layer ![Good first layer](chapter-05-first-print/img/first-layer-pass_1_samuel_irons.jpg) *Image provided by Samuel Irons*</div>
+* Here’s a couple examples of bad first layers. The ones on the left and right had barely enough sticking power to keep it from sticking to the nozzle, but the one in the center wasn’t so lucky. This is why you want to ensure the nozzle is exactly the right distance from the build plate. If you run into these type of issues you may need to go back to the Set Nozzle Distance section and adjust some more. ![First layer fails](chapter-05-first-print/img/first-layer-fails.jpg)
 
 
 #### Using LCD
 If you have the LCD add-on, then you can name the file anything you want when you place it on the SD Card. Simply choose the file from the LCD UI and it will start the printing process.
 
-* Click the File icon on the main screen. <div>**[ INSERT IMAGE ]**</div>
-* Choose the file you want to print. <div>**[ INSERT IMAGE ]**</div>
-* Then you can see a partial name of the file you selected, the temperature set for the initial layers, as well as Pause and Stop buttons. The bar on the left side of the LCD will show a progress bar (fills up from bottom to top), percentage complete (top), and the current time elapsed (bottom). <div>**[ INSERT IMAGE ]**</div>
+* Click the File icon on the main screen. ![LCD - files button](chapter-05-first-print/img/lcd-main-file-btn.png)
+* Choose the file you want to print. ![LCD - file list](chapter-05-first-print/img/lcd-file-list.png)
+* Then you can see a partial name of the file you selected, the temperature set for the initial layers, as well as Pause and Stop buttons. The bar on the left side of the LCD will show a progress bar (fills up from bottom to top), percentage complete (top), and the current time elapsed (bottom). ![LCD - start print](chapter-05-first-print/img/lcd-print-start.png)
 
 > ##### Tip: No Folders or Special Characters
 > Right now the LCD screen won’t let you navigate through folders on the SD Card, so you will need to store all your pcde/gcode files, that you want to print, on the root of the card. Users have also noticed that the file names can only contain AlphaNumeric, Spaces, and Dashes in their names, otherwise it can cause the LCD to just send you back to the main menu without starting the print.
@@ -60,9 +63,9 @@ If you have the LCD add-on, then you can name the file anything you want when yo
 If you don’t want to use the “autoprint.pcode” naming convention, for automatic prints, you can simple name the files whatever you want, then print them via the Pango Console.
 
 * Connect to the Pango Console (see USB Setup instructions).
-* Now you can simply click on the SD Card icon. <div>**[ INSERT IMAGE ]**</div>
-* Choose the file you want to print. <div>**[ INSERT IMAGE ]**</div>
-* Then after choosing the file, Pango will automatically close the console and start the printing process (might be a bug, not sure). So if you want to see what’s happening, you will need to re-open the console. At the start of the print you will just notice the Temperature set for the initial layers and the Heated Bed Temperature (bottom left of console). <div>**[ INSERT IMAGE ]**</div>
+* Now you can simply click on the SD Card icon. ![Pango - console sd card](chapter-05-first-print/img/pango-console-sdcard.png)
+* Choose the file you want to print. ![Pango - sd card file list](chapter-05-first-print/img/pango-console-sdcard-filelist.png)
+* Then after choosing the file, Pango will automatically close the console and start the printing process (might be a bug, not sure). So if you want to see what’s happening, you will need to re-open the console. At the start of the print you will just notice the Temperature set for the initial layers and the Heated Bed Temperature (bottom left of console). ![Pango - console start print](chapter-05-first-print/img/pango-console-start-printing.png)
 
 
 ### Troubleshooting Print Issues

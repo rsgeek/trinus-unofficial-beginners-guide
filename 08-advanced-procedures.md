@@ -6,17 +6,18 @@ If you want to ensure your Trinus is up to date with the latest firmware, which 
 
 #### Check Firmware Version
 * Connect your Trinus to your PC/Mac via USB.
-* Load up Pango and open to the Pango Console, then click on the tab at the bottom. <div>**[ INSERT IMAGE ]**</div>
-* Near the top of the Terminal window you will see the version of Firmware you have installed. Seen here we have version “3.5.6-03” installed. <div>**[ INSERT IMAGE ]**</div>
-
+* Load up Pango and open to the Pango Console, then click on the tab at the bottom. ![Pango - terminal button](chapter-08-advanced-procedures/firmware/img/pango-console-terminal-tab.png)
+* Near the top of the Terminal window you will see the version of Firmware you have installed. Seen here we have version “3.5.6-03” installed. ![Pango - view terminal](chapter-08-advanced-procedures/firmware/img/pango-terminal-window.png)
 
 #### Update Firmware
-* Go back into the Console connection screen, and click on the Firmware button.<div>**[ INSERT IMAGE ]**</div>
-* Now browse to the “.hex” file that you downloaded prior, then open it up. The update process will start. <div>**[ INSERT IMAGE ]**</div> <div>**[ INSERT IMAGE ]**</div>
-* It can take a up to few minutes, but it will eventually finish with the following message. <div>**[ INSERT IMAGE ]**</div>
+* Go back into the Console connection screen, and click on the Firmware button. ![Pango - console firmware button](chapter-08-advanced-procedures/firmware/img/pango-console-firmware.png)
+* Now browse to the “.hex” file that you downloaded prior, then open it up. The update process will start. ![Pango - select firmware file](chapter-08-advanced-procedures/firmware/img/pango-firmware-select-file.png) ![Pango - firmware updating](chapter-08-advanced-procedures/firmware/img/pango-firmware-update-progress.png)
+* It can take a up to few minutes, but it will eventually finish with the following message. ![Pango - firmware updated](chapter-08-advanced-procedures/firmware/img/pango-firmware-update-success.png)
 
 > ##### NOTE
 > If for some reason it fails the first time, try again. If you can’t get it updated you may need to email [support@kodama3d.com](mailto:support@kodama3d.com) to help you track down the root cause of your issue.
+
+
 
 ### Maximize Build Volume - 3D Printing
 Here’s the process to get the maximum use of the build volume, by getting your nozzles “Home” position to be exactly at the front left corner of your build plate.
@@ -25,7 +26,8 @@ Here’s the process to get the maximum use of the build volume, by getting your
 The following little helper tool will let you easily hand tighten / loosen the offset screw locking nuts. BUT you will first need to use a wrench to loosen them initially, since they were tighten quite a bit during assembly. There are 2 versions of this helper, one of them has a section cut out (right image) that lets you slide the tool over the screw shaft for usage.
 
 **Trinus - Axis Adjustment Helper** <br/> 
-[http://www.thingiverse.com/thing:2041158 <span>**[ INSERT IMAGE ]**</span>
+[http://www.thingiverse.com/thing:2041158
+![Axis adjustment helper tools](chapter-08-advanced-procedures/max-volume-printing/img/trinus-axis-adjustment-helper_both.png)
 ](http://www.thingiverse.com/thing:2041158)
 
 #### Adjust the Offset Screws
@@ -34,12 +36,12 @@ Now let’s begin the meticulous process of adjusting the offset screws to maxim
 > ##### WARNING {.warning}
 > Just like when you had went through the process to Set Nozzle Distance, you will want to do this with a cold nozzle.
 
-* Loosen all the locking nuts with a wrench, I didn’t have one small enough to fit so I just used an adjustable wrench for this. <div>**[ INSERT IMAGE ]**</div>
-* The locking nut on the Y axis (slider holding your bed) is a tough nut to reach. If you don’t want to remove the bed itself, then you can simply unscrew the slider to give you more room to loosen the nut, and install the helper tool. <div>**[ INSERT IMAGE ]**</div>
+* Loosen all the locking nuts with a wrench, I didn’t have one small enough to fit so I just used an adjustable wrench for this. ![Use an adjustable wrench](chapter-08-advanced-procedures/max-volume-printing/img/trinus-adjustable-wrench.png)
+* The locking nut on the Y axis (slider holding your bed) is a tough nut to reach. If you don’t want to remove the bed itself, then you can simply unscrew the slider to give you more room to loosen the nut, and install the helper tool. ![Y-axis slider](chapter-08-advanced-procedures/max-volume-printing/img/trinus-y-axis-slider-locking-screw.png)
 * Now that we have things all prepped, it’s time to start tweaking the offset screws. 
 * For this part I found that loosening the locking nut (via the helper tool), then adjusting the screws about 2 turns.
  * From the factory you will most likely need to **screw** in the Y axis offset and **unscrew** the X axis.
-* Each time you move the screw (in or out)  you will want to Home the axis to check how things look. This is how you want the X / Y distance to look from the corners. <div>**[ INSERT IMAGE ]**</div>
+* Each time you move the screw (in or out)  you will want to Home the axis to check how things look. This is how you want the X / Y distance to look from the corners. ![XY axis nozzle location](chapter-08-advanced-procedures/max-volume-printing/img/trinus-xy-axis-location.png)
 * Then you need to move the slider to its max position (X = 120, Y = 125) to ensure it’s not going to hit the end of the slider before reaching the max value. This is very important for the Y axis as the nozzle needs to be right at the edge (image above) otherwise it will crash into the front of the slider.
 * With your nozzle just above each corner you should now be able to use the entire build volume.
 
@@ -56,6 +58,8 @@ Now let’s begin the meticulous process of adjusting the offset screws to maxim
 > M628 Z0.08 ; Set Current Z-Offset Value to 0.08mm
 > ```
 
+
+
 ### Maximize Build Area - Laser Engraving 
 Paul Drinkut helped troubleshoot ([Facebook Post](https://www.facebook.com/groups/Trinus3D/permalink/1315472305181210/?hc_location=ufi)) the reason why the Laser Engraver wasn’t using the full build area, this was due to the fact the Laser Mount didn’t have the same left offset that the Extruder Assembly had. 
 
@@ -64,14 +68,17 @@ So in order to fix this, a modification was made to the official 3D Model (origi
 If you haven’t already, you will need to follow the process to Maximizing Build Volume in 3D Printing first, then you can print the fixed Laser Mount (below) to maximize your laser engraving area.
 
 **Modified Laser Mount** <br/>
-[https://www.dropbox.com/s/...2020170125.stl?dl=0 <span>**[ INSERT IMAGE ]**</span>
+[https://www.dropbox.com/s/...2020170125.stl?dl=0 
+![Pango - offset laser mount](chapter-08-advanced-procedures/max-area-laser/img/laser-mount-left-offset-pango.png)
 ](https://www.dropbox.com/s/zzg62goqsz81wo0/Trinus%20-%20Laser%20Holder%20-%20Left%20Offset%20-%2020170125.stl?dl=0)
 
 > ##### Tip: Find center using a cross hair image
 > Paul Drinkut had come up with a great idea of manually measuring out the center point of a piece of material (same size as the build plate), then use the laser to engrave a cross hair image to check if you have the laser centered. You can use a straightedge to extend the cross hair lines to the edge so that you can measure the results. ([Facebook Post](https://www.facebook.com/groups/Trinus3D/permalink/1318800631515044/?notif_t=group_post_mention&notif_id=1485566504148511))
-><br/><br/>
-> **[ INSERT IMAGE ]** <br/>
+>
+> ![Cross hair engraving test](chapter-08-advanced-procedures/max-area-laser/img/cross-hair-engrave-paul-drinkut.png)
 > *Image by Paul Drinkut and Photoshopped Ruler added by John Sanford*
+
+
 
 ### Print Over Wifi - OctoPrint
 Here’s a quick guide to get OctoPrint up and running, which was very straight forward. I used a Raspberry Pi 3 and OctoPi to get OctoPrint up and running quickly. 
@@ -81,21 +88,23 @@ Here’s a quick guide to get OctoPrint up and running, which was very straight 
 * After the network stuff is sorted, you can open your browser to the IP Address (*http://192.168.X.XXX*) of the RPi.
 * Now you can go through initial install steps of setting up a username/password, after which it will ask you to update to the latest version of OctoPrint (if not already the latest).
 * After the update process is complete, it will reload the OctoPrint service.
-* Time to update the Default Printer Profile, just so that OctoPrint knows a little about your printer. Go into Settings -> Printer Profile, then Edit the Default. <div>**[ INSERT IMAGE ]**</div>
-* Now update the Build Volume and tell OctoPrint if you have a Heated Bed installed. <div>**[ INSERT IMAGE ]**</div>
-* It’s also a good idea to change the Communication Timeout to around 60 seconds; sometimes the Trinus can be slow to respond to messages during the heat up phase. So this is to ensure the model continues printing even if the communication takes a little longer than normal. <div>**[ INSERT IMAGE ]**</div>
-* If the device isn’t currently sitting next to your Trinus, you will need to shut it down so that you can move it to it’s final resting place. <div>**[ INSERT IMAGE ]**</div>
+* Time to update the Default Printer Profile, just so that OctoPrint knows a little about your printer. Go into Settings -> Printer Profile, then Edit the Default. ![OctoPrint - printer profile edit](chapter-08-advanced-procedures/octoprint/img/octoprint-settings-printer-profiles-edit.png)
+* Now update the Build Volume and tell OctoPrint if you have a Heated Bed installed. ![OctoPrint - printer profile volume](chapter-08-advanced-procedures/octoprint/img/octoprint-settings-printer-profile-edit-volume.png)
+* It’s also a good idea to change the Communication Timeout to around 60 seconds; sometimes the Trinus can be slow to respond to messages during the heat up phase. So this is to ensure the model continues printing even if the communication takes a little longer than normal. ![OctoPrint - serial timeout](chapter-08-advanced-procedures/octoprint/img/octoprint-settings-serial-con-timeout.png)
+* If the device isn’t currently sitting next to your Trinus, you will need to shut it down so that you can move it to it’s final resting place. ![OctoPrint - system shutdown](chapter-08-advanced-procedures/octoprint/img/octoprint-system-list-shutdown.png)
 * Plug the device in next to your Trinus, get both devices powered up, then connect the USB cord from the Trinus to the RPi.
-* Open the browser on your computer and browse to the IP Address of your RPi (*http://192.168.X.XXX*), after you login, using the credentials you created earlier, you can now connect to the printer. <div>**[ INSERT IMAGE ]**</div>
-* Now you can Drag and Drop your files to the local file system. Since currently it’s not possible to upload to the SD card stored on the Trinus. <div>**[ INSERT IMAGE ]**</div>
-* If you don’t see your newly uploaded files, you may need to change the setting to see files stored locally. <div>**[ INSERT IMAGE ]**</div>
-* Then simply click the Print button for the file you want to print and it will stream it to the Trinus with no issues. Or if you click a File Name, you can then click on the Blue Print button above the file list. The small print button is greyed out for the selected (green name), so you need to use the larger one above. <div>**[ INSERT IMAGE ]**</div>
+* Open the browser on your computer and browse to the IP Address of your RPi (*http://192.168.X.XXX*), after you login, using the credentials you created earlier, you can now connect to the printer. ![OctoPrint - not connected](chapter-08-advanced-procedures/octoprint/img/octoprint-main-not-connected.png)
+* Now you can Drag and Drop your files to the local file system. Since currently it’s not possible to upload to the SD card stored on the Trinus. ![OctoPrint - upload locally](chapter-08-advanced-procedures/octoprint/img/octoprint-upload-file-locally.png)
+* If you don’t see your newly uploaded files, you may need to change the setting to see files stored locally. ![OctoPrint - view local contents](chapter-08-advanced-procedures/octoprint/img/octoprint-main-file-list-settings-local.png)
+* Then simply click the Print button for the file you want to print and it will stream it to the Trinus with no issues. Or if you click a File Name, you can then click on the Blue Print button above the file list. The small print button is greyed out for the selected (green name), so you need to use the larger one above. ![OctoPrint - print selected file](chapter-08-advanced-procedures/octoprint/img/octoprint-main-file-selected-print.png)
 
 > ##### NOTE
 > If you find you still have questions regarding the finer details for setting this up, please check out [Thomas Sanladerer’s](https://www.youtube.com/channel/UCb8Rde3uRL1ohROUVg46h1A) video on the subject. 
 >
 > ##### Getting started with OctoPrint on the Raspberry Pi 1, 2 and 3! [2016 edition]
 > <https://www.youtube.com/watch?v=MwsxO3ksxm4>
+
+
 
 ### Third Party Slicers
 A slicer is what you use to turn a 3D model ([STL](https://en.wikipedia.org/wiki/STL_%28file_format%29) file) into a Gcode file, this is what defines how the 3D Printer moves, amount of material to push out, speed, temperature, etc. If you're curious what all those Gcode values do, there’s an [online wiki](https://en.wikipedia.org/wiki/G-code) that describes them all.

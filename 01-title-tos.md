@@ -2,6 +2,7 @@
 
 <div class="author">By: John Sanford and Claus Olesen</div>
 
+<div class="toc">
 * [Online Help](#online-help)
     * [Getting Started Videos](#getting-started-videos)
     * [Getting Started Guide](#getting-started-guide)
@@ -63,3 +64,4 @@
     * [Axis Sliders](#axis-sliders)
     * [Nozzle Cleaning - Cold Pulling](#nozzle-cleaning---cold-pulling)
 * [Revision History](#revision-history)
+</div>

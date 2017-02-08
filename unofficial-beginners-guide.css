@@ -205,6 +205,11 @@ li p:last-child {
   margin-bottom: 0;
 }
 
+li img {
+  display: block;
+  margin: 20px 0;
+}
+
 ul ul, ol ol {
   margin: .3em 0;
 }
@@ -362,7 +367,7 @@ table td {
 
 /* TESTING ONLY - REMOVE WHEN COMPLETE*/
 a span {
-  display: block;
+  // display: block;
 }
 
 blockquote div {
@@ -371,5 +376,5 @@ blockquote div {
 
 blockquote em,
 ul li div em {
-  display: block;
+  //display: block;
 }

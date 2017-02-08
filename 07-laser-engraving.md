@@ -16,19 +16,18 @@ There was an update to the firmware that fixes an issue with the laser staying o
 
 **Do you have all the parts?** <br/>
 Just a quick confirmation that you have the 3 items needed to start your laser engraving adventure; Laser, Laser Mount, and Safety Glasses. If for some reason you didn’t get a Mount, you can print a copy of it, the file is available in the Downloads section, OR you can print the **fixed** one referenced in the Maximize Laser Build Area section.
-
-<div>**[ INSERT IMAGE ]**</div>
+![Laser components](chapter-07-laser-engraving/img/laser-components.png)
 
 
 ### Installation
 #### Disconnect Extruder Assembly
 * Let’s start by loading up the Pango Console (see USB Connection section).
-* Home the extruder head so the printer knows where all the axes currently are. <div>**[ INSERT IMAGE ]**</div>
-* Now move the Z axis up to about 30mm, then the X to around 60mm. <div>**[ INSERT IMAGE ]**</div>
-* This is to give us a little bit of room while we remove the extruder. <div>**[ INSERT IMAGE ]**</div>
+* Home the extruder head so the printer knows where all the axes currently are. ![Pango - console home](chapter-07-laser-engraving/img/pango-console-home.png)
+* Now move the Z axis up to about 30mm, then the X to around 60mm. ![Pango - console move x-y](chapter-07-laser-engraving/img/pango-console-move-x-z.png)
+* This is to give us a little bit of room while we remove the extruder. ![Move extruder](chapter-07-laser-engraving/img/machine-extruder-space.png)
 * **Unplug the Power**
-* Now we can turn the machine around (remove enclosure if you have this installed) and disconnect all the wires for the Extruder Assembly. You should see 2x Blue, 2x White, and a Black connector. Please pull them out by the connector (plastic part) and not the wires, as this can cause them to break or come loose. <div>**[ INSERT IMAGE ]**</div>
-* Now it’s time to unscrew the top 2 screws holding the Extruder Assembly to the X-axis. <div>**[ INSERT IMAGE ]**</div>
+* Now we can turn the machine around (remove enclosure if you have this installed) and disconnect all the wires for the Extruder Assembly. You should see 2x Blue, 2x White, and a Black connector. Please pull them out by the connector (plastic part) and not the wires, as this can cause them to break or come loose. ![PCB extruder connections](chapter-07-laser-engraving/img/back-of-pcb-extruder-removal.png)
+* Now it’s time to unscrew the top 2 screws holding the Extruder Assembly to the X-axis. ![Remove extruder screws](chapter-07-laser-engraving/img/machine-remove-extruder-screws.png)
 * Set the Extruder Assembly aside while we install the laser.
 
 > ##### Tip: Why Disconnect the Extruder?
@@ -37,17 +36,17 @@ Just a quick confirmation that you have the 3 items needed to start your laser e
 > This may be fixed in the future, but I would consider it a “**Best Practice**” to completely remove the attachments that you aren’t currently using.
 
 #### Attach the Laser
-* Start by attaching the mount for the laser using the 2 screws you removed when disconnecting the Extruder Assembly. <div>**[ INSERT IMAGE ]**</div>
-* Now clip the Laser Engraver into the mount. <div>**[ INSERT IMAGE ]**</div>
-* Connect to the cable to the PCB, small black connector right above the white LCD connection. <div>**[ INSERT IMAGE ]**</div>
-* All installed. Time for those Safety Glasses. <div>**[ INSERT IMAGE ]**</div>
+* Start by attaching the mount for the laser using the 2 screws you removed when disconnecting the Extruder Assembly. ![Laser mount](chapter-07-laser-engraving/img/laser-mount-installed.png)
+* Now clip the Laser Engraver into the mount. ![Laster mounted](chapter-07-laser-engraving/img/laser-installed-in-mount.png)
+* Connect to the cable to the PCB, small black connector right above the white LCD connection. ![Connect laser to PCB](chapter-07-laser-engraving/img/pcb-view-with-laser-connection.png)
+* All installed. Time for those Safety Glasses. ![IMG ALT](chapter-07-laser-engraving/img/safety-glasses-wear.png)
 
 #### Pango Setup
 In order to start using Pango to slice your images for engraving, you will first need to tell Pango that you’ve installed this tool head.
 
-* Go into Preference -> Preferences (Windows) or Pango -> Preferences (Mac) and change the “Printer Select” to “Trinus Laser” <div>**[ INSERT IMAGE ]**</div>
+* Go into Preference -> Preferences (Windows) or Pango -> Preferences (Mac) and change the “Printer Select” to “Trinus Laser” ![Pango - change printer type](chapter-07-laser-engraving/img/pango-preferences-printer.png)
 * Pango will now tell you it needs to restart, click Ok and let it restart. If you’re on a Mac, Pango doesn’t automatically re-open so you will need to open it back up and it should be in Laser Engraving Mode.
-* You will see a whole new set of Settings available for the engraving process (discussed below). <div>**[ INSERT IMAGE ]**</div>
+* You will see a whole new set of Settings available for the engraving process (discussed below). ![Pango - laser settings](chapter-07-laser-engraving/img/pango-laser-settings.png)
 
 
 #### Pango Laser Settings
@@ -71,11 +70,11 @@ For focusing your laser, you should watch how this is done in the official video
 > Some materials will give off toxic fumes, as one user discovered when engraving Chromed Leather. So if you plan on venturing out beyond your standard Wood blocks, I’d suggest doing some google searches on that specific material to ensure it’s safe to burn.
 
 **Trinus - Laser Installation and Usage** <br/>
-[https://vimeo.com/196594883#t=389s <br/>
-**[ INSERT IMAGE ]**
+[https://vimeo.com/196594883#t=389s
+![Laser install and usage video](chapter-07-laser-engraving/img/video-official-laser-install-usage.png)
 ](https://vimeo.com/196594883#t=389s)
 
-Now that you are all focused up, time to start finding things around the house to engrave (see **WARNING** above about choosing materials).
+Now that you are all focused up, time to start finding things around the house to engrave (see <span class="warning">**WARNING**</span> above about choosing materials).
 
 > ##### Tip: 10 Tips and Tricks
 > Stumbled across this Instructable on various tips and tricks when working with laser engravers. Some good information if you are completely new to laser engraving. 

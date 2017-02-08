@@ -5,7 +5,8 @@
 
 Please ensure you installed the small black spacer under the bed first. See how it’s installed in the official video:
 
-[https://vimeo.com/album/4289066/video/195241496 <span>**[ INSERT IMAGE ]**</span>
+[https://vimeo.com/album/4289066/video/195241496
+![Heated bed spacer](chapter-03-pre-check/img/heated-bed-black-square.png)
 ](https://vimeo.com/album/4289066/video/195241496) 
 
 
@@ -14,17 +15,23 @@ You will also **need** to install the BuildTak material on top of the Heated Bed
 > ##### Tip: Installation Tweak (Forum Thread)
 > You want to make sure you install a zip tie around the cable connection and through the holes at the back left of the heated build plate. This is to help reduce any fatigue caused by the constant motion.
 > 
->  <div>**[ INSERT IMAGE ]** *Idea provided by Roi Igarashi @ Kodama*</div>
+>  <div>
+>  ![Heated bed zip tie support](chapter-03-pre-check/img/heated-bed-zip-tie-support.png)
+>  *Idea provided by Roi Igarashi @ Kodama*
+>  </div>
 > 
->> ##### WARNING {.warning}
->> The downside to having a secured cable (above image), is that the zip ties rounded bump will crash into the small fan shroud at the bottom of the Extruder Assembly. So you will need to stay away from this little corner when slicing models. If you come up with a better working solution to keep the cable secure, please leave feedback on Facebook or the Forums.
+> ##### WARNING {.warning}
+> The downside to having a secured cable (above image), is that the zip ties rounded bump will crash into the small fan shroud at the bottom of the Extruder Assembly. So you will need to stay away from this little corner when slicing models. If you come up with a better working solution to keep the cable secure, please leave feedback on Facebook or the Forums.
 
 <!-- -->
 
 > ##### Tip: Secure cable to the Z-Axis
 > it’s also a good idea to secure the end of the pigtail loop to the Z-axis slider.
 > 
-> <div>**[ INSERT IMAGE ]** *Idea and image provided by Rick Miller*</div>
+> <div>
+> ![Heated bed cable tied to Z-axis](chapter-03-pre-check/img/heated-bed-cable-org-rick-miller.jpg)
+> *Idea and image provided by Rick Miller*
+> </div>
 
 <!-- -->
 
@@ -33,8 +40,8 @@ You will also **need** to install the BuildTak material on top of the Heated Bed
 >
 > Using one of the recommend removal tools you should slowly work your way under an edge of the printed object, then move the tool around the entire underside of the model until it’s fully released. This will help ensure your BuildTak material lasts a good long time. 
 >
->> ##### WARNING {.warning}
->> Please **DO NOT** try and rip the model from the BuildTak, this is how you destroy the surface and it ends up being very expensive to keep replacing them. This also ensures you don’t prematurely destroy your heated bed in the process.
+> ##### WARNING {.warning}
+> Please **DO NOT** try and rip the model from the BuildTak, this is how you destroy the surface and it ends up being very expensive to keep replacing them. This also ensures you don’t prematurely destroy your heated bed in the process.
 
 <!-- -->
 
@@ -50,11 +57,12 @@ This is installed on its own, don’t use the small black spacer from the Heated
 OMG where is my Spool Holder? Well, this is meant to be one of your first functional prints. You have the option to grab the official spool holders or one of the community created options. While printing these, you can simply stand your spool up behind the printer, then check on it during printing to ensure it doesn’t get tangled up on anything.
 
 **Official Spool Holders (see Downloads section)**
-<div>**[ INSERT IMAGE ]**</div>
+![Official spool holders](chapter-03-pre-check/img/spool-holders-official.png)
 *Normal Spool Holder (left) and Enclosure Spool Holder (right)*
 
 **Community Created Spool Holders** <br/>
-[http://www.thingiverse.com/search?q=trinus+spool+holder <span>**[ IMAGE HERE ]**</span>
+[http://www.thingiverse.com/search?q=trinus+spool+holder 
+![Thingiverse spool holders](chapter-03-pre-check/img/thingiverse-community-spool-holders.png)
 ](http://www.thingiverse.com/search?q=trinus+spool+holder)
 
 
@@ -66,7 +74,7 @@ Get the latest version (2.3+) as it will be needed to get you set up.
 <https://www.facebook.com/groups/Trinus3D/files/>
 
 **Forum Post - Facebook File Sync** <br/>
-Since as of this writing the Forum Downloads section doesn’t have the same files as the Facebook Group (this may change when things settle down on Kodama’s side), but for now these files have been downloaded and tossed into a DropBox share; latest additions will be posted here:
+Since as of this writing the Forum Downloads section doesn’t have the same files as the Facebook Group (this may change when things settle down on Kodama’s side), but for now these files have been downloaded and tossed into a DropBox share; latest additions will be posted here: <br/>
 <http://www.kodamaforums.com/phpBB3/viewtopic.php?f=21&t=363>
 
 #### Install It
@@ -90,10 +98,10 @@ If for some reason you can’t complete these steps, please post details about y
 
 * Connect the Power and USB Cables to your Trinus.
 * Once fully powered up, connect the USB Cable to your computer.
-* Open Pango, and click on View -> Console <div>**[ INSERT IMAGE ]**</div>
-* Select the USB connection from the Port list. <div>**[ INSERT IMAGE ]**</div>
-* Now click on the Console button in this window, to view the Printer Controls. <div>**[ INSERT IMAGE ]**</div>
-* Now click on the “Heat E” button to heat up the Extruder. The LED on the Trinus should change to Red if all goes well. Click the “Heat E” button again to stop the process. <div>**[ INSERT IMAGE ]**</div>
+* Open Pango, and click on View -> Console ![Pango - view console](chapter-03-pre-check/img/pango-view-console.png)
+* Select the USB connection from the Port list. ![Pango - connect to Ccnsole](chapter-03-pre-check/img/pango-console-connect.png)
+* Now click on the Console button in this window, to view the Printer Controls. ![Pango - console](chapter-03-pre-check/img/pango-console.png)
+* Now click on the “Heat E” button to heat up the Extruder. The LED on the Trinus should change to Red if all goes well. Click the “Heat E” button again to stop the process. ![Pango - console highlight heat-e button](chapter-03-pre-check/img/pango-console-heat-e.png)
 * USB Test Successful.
 
 > ##### Tip: Mac just won’t connect for me (advanced option)
