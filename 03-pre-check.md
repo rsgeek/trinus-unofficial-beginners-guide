@@ -51,7 +51,7 @@ You will also **need** to install the BuildTak material on top of the Heated Bed
 > Here’s a video showing how to clean the BuildTak material with 70% Alcohol as well: <https://www.youtube.com/watch?v=BrJc2cqYeXI>
 
 ### Normal Bed
-This is installed on its own, don’t use the small black spacer from the [Heated Bed](#heated-build-plate).
+This is installed on its own, **don’t use** the small black spacer from the [Heated Bed](#heated-build-plate).
 
 ### Spool Holder
 OMG where is my Spool Holder? Well, this is meant to be one of your first functional prints. You have the option to grab the official spool holders or one of the community created options. While printing these, you can simply stand your spool up behind the printer, then check on it during printing to ensure it doesn’t get tangled up on anything.
@@ -140,4 +140,4 @@ If your computer doesn’t already have one, get one, all you’ll do is drive y
 > Most Laptops have these built-in as well, so please check if you already have one.
 
 #### M3/M4 Screws/Nuts
-Get a variety pack of these screws and nuts, especially if you’re in the US, since it can be a PAIN to find the right length that you need. Also get some M3 x 25mm and M3 x 30mm screws, the 25mm length ones are what’s currently used for the Axis Offset Screws, but if you wanna play around with using a Glass Bed, you will need longer screws (hence the 30mm ones).
+Get a variety pack of these screws and nuts, especially if you’re in the US, since it can be a PAIN to find the right length that you need. Also get some **M3 x 25mm and M3 x 30mm** screws, the 25mm length ones are what’s currently used for the Axis Offset Screws, but if you wanna play around with using a Glass Bed, you will need longer screws (hence the 30mm ones).

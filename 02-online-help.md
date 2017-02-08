@@ -16,7 +16,7 @@ Terrible quality and terribly useful <br/>
 <https://www.youtube.com/channel/UCMnqd6BRofGVrfA0u4806YQ>
 
 > ##### NOTE
-> The Printer Assembly video was created using a Prototype unit during the Kickstarter Campaign; before the production units were realized, so there will be some differences. Even with that said, I still feel it’s a great video to watch before assembling your printer (No Assembly Instructions? Check the [Downloads](#download-it) section).
+> The Printer Assembly video was created using a **Prototype** unit during the Kickstarter Campaign; before the production units were realized, so there will be some differences. Even with that said, I still feel it’s a great video to watch before assembling your printer (No Assembly Instructions? Check the [Downloads](#download-it) section).
 
 <!-- -->
 
