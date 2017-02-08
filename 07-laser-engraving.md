@@ -12,16 +12,16 @@ Here’s a little video on how to install the laser assembly and the basics of g
 <https://vimeo.com/album/4289066/video/196594883>
 
 **Check Firmware** <br/>
-There was an update to the firmware that fixes an issue with the laser staying on after click on the stop / pause button. So you will want to ensure you have the latest firmware (v3.5.6+)  installed before using the Laser Engraver (see Update Firmware section).
+There was an update to the firmware that fixes an issue with the laser staying on after click on the stop / pause button. So you will want to ensure you have the latest firmware (v3.5.6+)  installed before using the Laser Engraver (see [Update Firmware](#update-firmware) section).
 
 **Do you have all the parts?** <br/>
-Just a quick confirmation that you have the 3 items needed to start your laser engraving adventure; Laser, Laser Mount, and Safety Glasses. If for some reason you didn’t get a Mount, you can print a copy of it, the file is available in the Downloads section, OR you can print the **fixed** one referenced in the Maximize Laser Build Area section.
+Just a quick confirmation that you have the 3 items needed to start your laser engraving adventure; Laser, Laser Mount, and Safety Glasses. If for some reason you didn’t get a Mount, you can print a copy of it, the file is available in the [Downloads](#download-it) section, OR you can print the **fixed** one referenced in the [Maximize Laser Build Area](#maximize-build-area---laser-engraving) section.
 ![Laser components](chapter-07-laser-engraving/img/laser-components.png)
 
 
 ### Installation
 #### Disconnect Extruder Assembly
-* Let’s start by loading up the Pango Console (see USB Connection section).
+* Let’s start by loading up the Pango Console (see [USB Connection](#setup-usb-connection) section).
 * Home the extruder head so the printer knows where all the axes currently are. ![Pango - console home](chapter-07-laser-engraving/img/pango-console-home.png)
 * Now move the Z axis up to about 30mm, then the X to around 60mm. ![Pango - console move x-y](chapter-07-laser-engraving/img/pango-console-move-x-z.png)
 * This is to give us a little bit of room while we remove the extruder. ![Move extruder](chapter-07-laser-engraving/img/machine-extruder-space.png)
@@ -55,7 +55,7 @@ This is the speed at which the laser is moving while on/engraving. If you are wo
 * **Laser At Height** <br/> 
 The laser can focus anywhere from 80-100mm away from the material you plan on engraving. So you will need to adjust this value to the height of the material (in millimeters) you are using + the focusing distances of 80-100mm.
 * **Bright Threshold** <br/> 
-This value will let you determine if an area of your picture is considered a Dark area or a Light area, since Pango currently doesn’t support Grayscale, you get to determine if the pixel will show up in the final product. You can see this in action in the official video provided above at around the 4min mark.
+This value will let you determine if an area of your picture is considered a Dark area or a Light area, since Pango currently doesn’t support Grayscale, you get to determine if the pixel will show up in the final product. You can see this in action in the official video provided above at around the [4min mark](https://vimeo.com/196594883#t=240s).
 * **Reversed Bright** <br/> 
 Toggle to choose if you want the Light or Dark areas of your image engraved. By default this is unchecked and the Light colors areas will be burned into the material.
 * **Infill Rate** <br/> 
