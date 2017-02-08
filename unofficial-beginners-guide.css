@@ -95,20 +95,17 @@ h1 em {
 h2 {
   font-size: 2em;
   color: #025196;
-  margin-left: -40px;
   border-bottom: 1px solid #ddd;
 }
 
 h3 {
   font-size: 1.5em;
   color: #ce401b;
-  margin-left: -20px;
 }
 
 h4 {
   font-size: 1.2em;
   color: #e8922a;
-  margin-left: -10px;
 }
 
 h5 {
@@ -292,6 +289,8 @@ table td {
     font-size: 16px;
   }
 }
+
+/*
 @media print {
   * {
     background: transparent !important;
@@ -358,8 +357,7 @@ table td {
     page-break-after: avoid;
   }
 }
-
-
+*/
 
 
 /* TESTING ONLY - REMOVE WHEN COMPLETE*/
