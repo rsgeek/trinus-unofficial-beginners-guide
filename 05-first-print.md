@@ -1,7 +1,7 @@
 
 ## First Print
 
-Some of the SD Cards that came with the Trinus were blank. But you can get all the files that were meant to be included on the card online, see the Download section above, as these files are stored alongside Pango.
+Some of the SD Cards that came with the Trinus were blank. But you can get all the files that were meant to be included on the card online, see the [Download](#download-it) section above, as these files are stored alongside Pango.
 
 Before loading up your SD card with any files, it’s recommended to reformat it using FAT32 file system. Users have experienced random stops when using bad SD cards, which seem to be corrupting the files stored on them; formatting the card can help prevent this. If you’re not sure how to format an SD card, google is your friend: [Windows](https://www.google.com/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=How%20to%20format%20sd%20card%20windows) | [Mac](https://www.google.com/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=How%20to%20format%20sd%20card%20mac)
 
@@ -39,14 +39,14 @@ From the [Download](#download-it) section, we’ll start by grabbing the **Pokem
 
 #### Autoprint File on SD
 
-* Unzip the contents of the file so that you can see the file named "autoprint.pcode"
-* Copy the “autoprint.pcode” file to the root of your SD Card.
+* Unzip the contents of the file so that you can see the file named "**autoprint.pcode**"
+* Copy the **“autoprint.pcode”** file to the root of your SD Card.
 * Remove the SD Card from your computer after the file completes writing.
 * Now place the SD Card into your printer and push down until it clicks into place. This should cause the Printer to beep twice, telling you it found the "autoprint.pcode" file and it's starting the print.
 * After the printing process begins, the extruder needs to heat up to temperature before it starts, you want to pay attention to the first couple layers of filament.
 * If the first couple layers aren't sticking to the bed, like the extruder is just dragging them around, you need to eject to the SD card so that the printer stops right away. You want the first layer to have a flat top, but not so flat that you can can see the build plate underneath it (unless you are using transparent filaments, then that’s a different story).
 * Here’s an example of a good first layer ![Good first layer](chapter-05-first-print/img/first-layer-pass_1_samuel_irons.jpg) *Image provided by Samuel Irons*</div>
-* Here’s a couple examples of bad first layers. The ones on the left and right had barely enough sticking power to keep it from sticking to the nozzle, but the one in the center wasn’t so lucky. This is why you want to ensure the nozzle is exactly the right distance from the build plate. If you run into these type of issues you may need to go back to the Set Nozzle Distance section and adjust some more. ![First layer fails](chapter-05-first-print/img/first-layer-fails.jpg)
+* Here’s a couple examples of bad first layers. The ones on the left and right had barely enough sticking power to keep it from sticking to the nozzle, but the one in the center wasn’t so lucky. This is why you want to ensure the nozzle is exactly the right distance from the build plate. If you run into these type of issues you may need to go back to the [Set Nozzle Distance](#set-nozzle-distance) section and adjust some more. ![First layer fails](chapter-05-first-print/img/first-layer-fails.jpg)
 
 
 #### Using LCD
@@ -62,7 +62,7 @@ If you have the LCD add-on, then you can name the file anything you want when yo
 #### Pango Console
 If you don’t want to use the “autoprint.pcode” naming convention, for automatic prints, you can simple name the files whatever you want, then print them via the Pango Console.
 
-* Connect to the Pango Console (see USB Setup instructions).
+* Connect to the Pango Console (see [USB Setup](#setup-usb-connection) instructions).
 * Now you can simply click on the SD Card icon. ![Pango - console sd card](chapter-05-first-print/img/pango-console-sdcard.png)
 * Choose the file you want to print. ![Pango - sd card file list](chapter-05-first-print/img/pango-console-sdcard-filelist.png)
 * Then after choosing the file, Pango will automatically close the console and start the printing process (might be a bug, not sure). So if you want to see what’s happening, you will need to re-open the console. At the start of the print you will just notice the Temperature set for the initial layers and the Heated Bed Temperature (bottom left of console). ![Pango - console start print](chapter-05-first-print/img/pango-console-start-printing.png)
