@@ -12,7 +12,7 @@ Please ensure you installed the small black spacer under the bed first. See how 
 
 You will also **need** to install the BuildTak material on top of the Heated Bed. You can’t print directly on the surface of this bed, since it’s too slick anything to stick. Plus there is a good chance of ruining your brand new heated bed if you tried.
 
-> ##### Tip: Installation Tweak (Forum Thread)
+> ##### Tip: Installation Tweak ([Forum Thread](http://www.kodamaforums.com/phpBB3/viewtopic.php?f=22&t=1467))
 > You want to make sure you install a zip tie around the cable connection and through the holes at the back left of the heated build plate. This is to help reduce any fatigue caused by the constant motion.
 > 
 >  <div>
@@ -38,7 +38,7 @@ You will also **need** to install the BuildTak material on top of the Heated Bed
 > ##### Tip: Part Removal
 > One of the community members (sorry, can’t remember who told me about it) had posted about how they like to heat up the build plate to about 60C to help with the removal of the printed models. 
 >
-> Using one of the recommend removal tools you should slowly work your way under an edge of the printed object, then move the tool around the entire underside of the model until it’s fully released. This will help ensure your BuildTak material lasts a good long time. 
+> Using one of the recommend [removal tools](#extra-useful-tools) you should slowly work your way under an edge of the printed object, then move the tool around the entire underside of the model until it’s fully released. This will help ensure your BuildTak material lasts a good long time. 
 >
 > ##### WARNING {.warning}
 > Please **DO NOT** try and rip the model from the BuildTak, this is how you destroy the surface and it ends up being very expensive to keep replacing them. This also ensures you don’t prematurely destroy your heated bed in the process.
@@ -46,17 +46,17 @@ You will also **need** to install the BuildTak material on top of the Heated Bed
 <!-- -->
 
 > ##### Tip: Cleaning
-> Heat build plate to 100C to soften any residue that might have been left behind after removing your printed models, so it will be easy to clean up with your removal tool of choice. 
+> Heat build plate to 100C to soften any residue that might have been left behind after removing your printed models, so it will be easy to clean up with your [removal tool](#extra-useful-tools) of choice. 
 >
 > Here’s a video showing how to clean the BuildTak material with 70% Alcohol as well: <https://www.youtube.com/watch?v=BrJc2cqYeXI>
 
 ### Normal Bed
-This is installed on its own, don’t use the small black spacer from the Heated Bed.
+This is installed on its own, don’t use the small black spacer from the [Heated Bed](#heated-build-plate).
 
 ### Spool Holder
 OMG where is my Spool Holder? Well, this is meant to be one of your first functional prints. You have the option to grab the official spool holders or one of the community created options. While printing these, you can simply stand your spool up behind the printer, then check on it during printing to ensure it doesn’t get tangled up on anything.
 
-**Official Spool Holders (see Downloads section)**
+**Official Spool Holders (see [Downloads](#download-it) section)**
 ![Official spool holders](chapter-03-pre-check/img/spool-holders-official.png)
 *Normal Spool Holder (left) and Enclosure Spool Holder (right)*
 
@@ -74,7 +74,7 @@ Get the latest version (2.3+) as it will be needed to get you set up.
 <https://www.facebook.com/groups/Trinus3D/files/>
 
 **Forum Post - Facebook File Sync** <br/>
-Since as of this writing the Forum Downloads section doesn’t have the same files as the Facebook Group (this may change when things settle down on Kodama’s side), but for now these files have been downloaded and tossed into a DropBox share; latest additions will be posted here: <br/>
+Since as of this writing the [Forum Downloads](http://www.kodamaforums.com/phpBB3/page/downloads) section doesn’t have the same files as the Facebook Group (this may change when things settle down on Kodama’s side), but for now these files have been downloaded and tossed into a DropBox share; latest additions will be posted here: <br/>
 <http://www.kodamaforums.com/phpBB3/viewtopic.php?f=21&t=363>
 
 #### Install It
