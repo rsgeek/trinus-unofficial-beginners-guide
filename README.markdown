@@ -1,8 +1,12 @@
 # Trinus - The Unofficial Beginners Guide
 
-This version of the Unofficial Beginners Guide is a **work in progress** as it's slowly being converted from the original version (Google Doc) over to a Markdown format. 
-
 This will enable Trinus owners that would like to contribute to the guide a better option via [Github Pull Requests](https://gist.github.com/Chaser324/ce0505fbed06b947d962).
+
+You can also view the guide online using the Github Pages feature:
+
+<https://drofnas.github.io/trinus-unofficial-beginners-guide/>
+
+The latest compiled **PDF** document can be found in the [download](https://github.com/drofnas/trinus-unofficial-beginners-guide/tree/master/download) folder.
 
 
 
@@ -41,8 +45,6 @@ First thing you need to do is create the redued sized images (800 width) so that
 ## Compiling
 
 The HTML file is compiled using Pandoc (http://pandoc.org/index.html), see their website on how to install it on your machine if you want to compile the current (in progress) version of the document. Then the HTML file is opened inside of Chrome and using the *Save as PDF* feature to create the PDF document.
-
-The latest compiled PDF document can be found in the [download folder](https://github.com/drofnas/trinus-unofficial-beginners-guide/tree/master/download).
 
 ### Generate HTML
 Make sure to get Pandoc (http://pandoc.org/index.html) installed first so that you can run the following command. The exact command may vary depending on your OS; this was what was run in OSX. See their website for OS specific changes to the command:
