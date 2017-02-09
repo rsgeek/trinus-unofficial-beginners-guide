@@ -14,7 +14,7 @@ The following little helper tool will let you easily hand tighten / loosen the o
 Now let’s begin the meticulous process of adjusting the offset screws to maximize the build volume.
 
 > ##### WARNING {.warning}
-> Just like when you had went through the process to Set Nozzle Distance, you will want to do this with a cold nozzle.
+> Just like when you had went through the process to [Set Nozzle Distance](#set-nozzle-distance), you will want to do this with a cold nozzle.
 
 * Loosen all the locking nuts with a wrench, I didn’t have one small enough to fit so I just used an adjustable wrench for this. ![Use an adjustable wrench](chapter-08-advanced-procedures/max-volume-printing/img/trinus-adjustable-wrench.png)
 * The locking nut on the Y axis (slider holding your bed) is a tough nut to reach. If you don’t want to remove the bed itself, then you can simply unscrew the slider to give you more room to loosen the nut, and install the helper tool. ![Y-axis slider](chapter-08-advanced-procedures/max-volume-printing/img/trinus-y-axis-slider-locking-screw.png)
@@ -31,7 +31,7 @@ Now let’s begin the meticulous process of adjusting the offset screws to maxim
 <!-- -->
 
 > ##### Tip: Z-Offset Via 3rd Party Slicer (advanced user)
-> If you prefer to use a 3rd Party Slicer for “everything”, then there is a way to set / get the current Z-Offset value via the Terminal window in your prefered slicer. The Terminal window is just a way to send individual Gcode commands to the printer. Here are the 2 commands, first one to get the current value and the second will set the value (positive = closer to bed, negative = further away):
+> If you prefer to use a 3rd Party Slicer for “everything”, then there is a way to set / get the current Z-Offset value via the Terminal window in your prefered slicer. The Terminal window is just a way to send individual Gcode commands to the printer. Here are the 2 commands, first one to get the current value and the second will set the value (positive = closer to bed, negative = further away). These are **case sensitive**, so a lowercase "m" will not work.
 > 
 > ```
 > M628 ; Get Current Z-Offset Value

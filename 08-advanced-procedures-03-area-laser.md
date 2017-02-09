@@ -2,9 +2,9 @@
 ### Maximize Build Area - Laser Engraving 
 Paul Drinkut helped troubleshoot ([Facebook Post](https://www.facebook.com/groups/Trinus3D/permalink/1315472305181210/?hc_location=ufi)) the reason why the Laser Engraver wasn’t using the full build area, this was due to the fact the Laser Mount didn’t have the same left offset that the Extruder Assembly had. 
 
-So in order to fix this, a modification was made to the official 3D Model (original model can be found in the Downloads section) to add in a small left offset of 5mm. This combined with the X/Y-Axis offset screws allowed for the maximum engraving area to be achieved. 
+So in order to fix this, a modification was made to the official 3D Model (original model can be found in the [Downloads](#download-it) section) to add in a small left offset of 5mm. This combined with the X/Y-Axis offset screws allowed for the maximum engraving area to be achieved. 
 
-If you haven’t already, you will need to follow the process to Maximizing Build Volume in 3D Printing first, then you can print the fixed Laser Mount (below) to maximize your laser engraving area.
+If you haven’t already, you will need to follow the process to [Maximizing Build Volume in 3D Printing](#maximize-build-volume---3d-printing) first, then you can print the fixed Laser Mount (below) to maximize your laser engraving area.
 
 **Modified Laser Mount** <br/>
 [https://www.dropbox.com/s/...2020170125.stl?dl=0 

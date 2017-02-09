@@ -17,8 +17,9 @@ Here’s a quick guide to get OctoPrint up and running, which was very straight 
 * If you don’t see your newly uploaded files, you may need to change the setting to see files stored locally. ![OctoPrint - view local contents](chapter-08-advanced-procedures/octoprint/img/octoprint-main-file-list-settings-local.png)
 * Then simply click the Print button for the file you want to print and it will stream it to the Trinus with no issues. Or if you click a File Name, you can then click on the Blue Print button above the file list. The small print button is greyed out for the selected (green name), so you need to use the larger one above. ![OctoPrint - print selected file](chapter-08-advanced-procedures/octoprint/img/octoprint-main-file-selected-print.png)
 
-> ##### NOTE
-> If you find you still have questions regarding the finer details for setting this up, please check out [Thomas Sanladerer’s](https://www.youtube.com/channel/UCb8Rde3uRL1ohROUVg46h1A) video on the subject. 
->
-> ##### Getting started with OctoPrint on the Raspberry Pi 1, 2 and 3! [2016 edition]
-> <https://www.youtube.com/watch?v=MwsxO3ksxm4>
+
+#### More Questions?
+If you find you still have questions regarding the finer details for setting this up, please check out [Thomas Sanladerer’s](https://www.youtube.com/channel/UCb8Rde3uRL1ohROUVg46h1A) video on the subject. 
+
+**Getting started with OctoPrint on the Raspberry Pi 1, 2 and 3! [2016 edition]**
+[https://www.youtube.com/watch?v=MwsxO3ksxm4 ![OctoPrint - getting started video](chapter-08-advanced-procedures/octoprint/img/video-getting-started-with-octoprint.png)](https://www.youtube.com/watch?v=MwsxO3ksxm4)

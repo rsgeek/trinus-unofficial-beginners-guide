@@ -1,6 +1,6 @@
 
 ### Update Firmware
-If you want to ensure your Trinus is up to date with the latest firmware, which may fix known issues, then here’s a quick look on how to do this process. You can get the latest version of the firmware from the Downloads section.
+If you want to ensure your Trinus is up to date with the latest firmware, which may fix known issues, then here’s a quick look on how to do this process. You can get the latest version of the firmware from the [Downloads](#download-it) section.
 
 #### Check Firmware Version
 * Connect your Trinus to your PC/Mac via USB.
