@@ -42,12 +42,12 @@ First thing you need to do is create the redued sized images (800 width) so that
 
 The HTML file is compiled using Pandoc (http://pandoc.org/index.html), see their website on how to install it on your machine if you want to compile the current (in progress) version of the document. Then the HTML file is opened inside of Chrome and using the *Save as PDF* feature to create the PDF document.
 
-The latest compiled files will always be **unofficial-beginners-guide** (HTML / PDF)
+The latest compiled PDF document can be found in the [download folder](https://github.com/drofnas/trinus-unofficial-beginners-guide/tree/master/download).
 
 ### Generate HTML
 Make sure to get Pandoc (http://pandoc.org/index.html) installed first so that you can run the following command. The exact command may vary depending on your OS; this was what was run in OSX. See their website for OS specific changes to the command:
 
-    pandoc *.md > unofficial-beginners-guide.html --css unofficial-beginners-guide.css
+    pandoc *.md > docs/index.html --css helpers/style.css
 
 ### Generate PDF
 
