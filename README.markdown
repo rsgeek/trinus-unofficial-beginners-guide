@@ -6,7 +6,7 @@ This will enable Trinus owners that would like to contribute to the guide a bett
 
 
 
-## Style Guide (WIP)
+## Style Guide
 
 This will go over the various styles/layout that are used throughout the Guide so that all contributions stay with the same format and it keeps a uniform look and feel.
 
@@ -16,7 +16,7 @@ Just copy the same style as the rest of the guide. It should cover all styles ne
 
 ### Images
 
-The original images (orig folder) are 3000px x 1500px (2:1) size. This way the images that are used in the document are just a reduction in that sie of 800px x 400px. Another option if you need some slightly shorter height to your image, then you can have create with a 4:1 ratio (800px x 200px).
+The original images (`orig` folder) are 3000px x 1500px (2:1) size. This way the images that are used in the document are just a reduction in that sie of 800px x 400px. Another option if you need some slightly shorter height to your image, then you can have create with a 4:1 ratio (800px x 200px).
 
 Original Sizes (**PNG / JPG / PSD**):
 
@@ -40,7 +40,7 @@ First thing you need to do is create the redued sized images (800 width) so that
 
 ## Compiling
 
-The HTML file is compiled using Pandoc (http://pandoc.org/index.html), see their website on how to install it on your machine if you want to compile the current (in progress) version of the document. Then the HTML file is opened inside of Chrome and using the Print to PDF feature, is how the PDF file is created.
+The HTML file is compiled using Pandoc (http://pandoc.org/index.html), see their website on how to install it on your machine if you want to compile the current (in progress) version of the document. Then the HTML file is opened inside of Chrome and using the *Save as PDF* feature to create the PDF document.
 
 The latest compiled files will always be **unofficial-beginners-guide** (HTML / PDF)
 
