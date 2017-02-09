@@ -14,11 +14,11 @@ This will go over the various styles/layout that are used throughout the Guide s
 
 ### Text
 
-**comming soon**
+**...comming soon**
 
 ### Layout
 
-**comming soon**
+**...comming soon**
 
 ### Images
 
@@ -57,9 +57,9 @@ Make sure to get Pandoc (http://pandoc.org/index.html) installed first so that y
 
 ### Generate PDF
 
-* Need to first generaet the HTML file first.
-* Now open the HTML file in Chrome.
+* First generate the HTML using Pandoc above.
+* Open the HTML file in Chrome.
 * Click on File -> Print
-* In the Print Dialog there should be an option for "Save to PDF"
-* Save the file locally and done.
+* Change your Destination (or Printer) to "Save as PDF"
+* Click the Save button to save it locally.
 
