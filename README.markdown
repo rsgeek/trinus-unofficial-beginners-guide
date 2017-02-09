@@ -10,15 +10,9 @@ This will enable Trinus owners that would like to contribute to the guide a bett
 
 This will go over the various styles/layout that are used throughout the Guide so that all contributions stay with the same format and it keeps a uniform look and feel.
 
-> Until this section is completed, just copy the same style as the rest of the guide. It should cover all styles needed in any future updates. The Images section was completed right away so that they are in the right format and size. Here's a [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) to help with syntax.
+### Text / Layout
 
-### Text
-
-**...comming soon**
-
-### Layout
-
-**...comming soon**
+Just copy the same style as the rest of the guide. It should cover all styles needed in any future updates. Here's a [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) to help with syntax that may not have been used yet in this guide.
 
 ### Images
 
