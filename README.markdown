@@ -16,25 +16,25 @@ This will go over the various styles/layout that are used throughout the Guide s
 
 ### Text / Layout
 
-Just copy the same style as the rest of the guide. It should cover all styles needed in any future updates. Here's a [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) to help with syntax that may not have been used yet in this guide.
+For now, until this section of the style guide is flushed out, just copy the same style as the rest of the guide. It should cover the majority of things needed. Here's a [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) to help with any syntax not already used in the guide.
 
 ### Images
 
-The original images (`orig` folder) are 3000px x 1500px (2:1) size. This way the images that are used in the document are just a reduction in that sie of 800px x 400px. Another option if you need some slightly shorter height to your image, then you can have create with a 4:1 ratio (800px x 200px).
+The original images (`orig` folder) are 3000px x 1500px (2:1) size. Then the images that are used in the document are just a reduction in size to 800px x 400px. If you want to have shorter height to your image, then you can create with a 4:1 ratio (3000px x 750px -> 800px x 200px).
 
-Original Sizes (**PNG / JPG / PSD**):
+Original Images (**PNG / JPG / PSD**):
 
 * 3000px x 1500px (2:1)
 * 3000px x 750px (4:1)
 
-HTML / PDF Sizes (**PNG / JPG**):
+HTML / PDF Images (**PNG / JPG**):
 
 * 800px x 400px (2:1)
 * 800px x 200px (4:1)
 
 #### Optimize Images
 
-First thing you need to do is create the redued sized images (800 width) so that they can be optimized. All images should be optimized using [TinyPNG.org](https://tinypng.com/). 
+First thing you need to do is create the redued sized images (800 width) so that they can be optimized. All images should be uploaded to [TinyPNG.org](https://tinypng.com/) for processing. This process will reduce the file size of each image by as much as 70%. 
 
 * Drag and drop images on to the website.
 * Download the optimized version.
@@ -44,7 +44,7 @@ First thing you need to do is create the redued sized images (800 width) so that
 
 ## Compiling
 
-The HTML file is compiled using Pandoc (http://pandoc.org/index.html), see their website on how to install it on your machine if you want to compile the current (in progress) version of the document. Then the HTML file is opened inside of Chrome and using the *Save as PDF* feature to create the PDF document.
+The HTML file is compiled using Pandoc (http://pandoc.org/index.html), see their website on how to install it on your machine. This will enable you to compile the latest development branch of this guide.
 
 ### Generate HTML
 Make sure to get Pandoc (http://pandoc.org/index.html) installed first so that you can run the following command. The exact command may vary depending on your OS; this was what was run in OSX. See their website for OS specific changes to the command:
