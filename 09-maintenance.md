@@ -27,5 +27,13 @@ Here’s a method known as Cold Pulling, where you heat up the nozzle just enoug
 * If there was something stuck on your hotend, it should be attached to the filament you pulled out. Just keep repeating this “heat, cool, pull” process until the nozzle comes out clean like the following image. ![Good cold pull](chapter-09-maintenance/img/cold-pull-results.png)
 
 
+#### Still have more questions?
+
+**Thomas Sanladerer - Basics: Cleaning out a clogged nozzle** <br/>
+[https://www.youtube.com/watch?v=g8uvh6kvr54
+![Thomas Sanladerer - Basics: Cleaning out a clogged nozzle](chapter-09-maintenance/img/video-cleaning-clogged-nozzle.jpg)
+](https://www.youtube.com/watch?v=g8uvh6kvr54)
+
+
 > ##### Tip: Using Nylon
 > Some people love to use Nylon filament for this process as it does a great job of holding on to the gunk that might be stuck in the nozzle. If you plan on doing this, you will want to heat the nozzle to 230C, then reduce to 100C for the pull. 
