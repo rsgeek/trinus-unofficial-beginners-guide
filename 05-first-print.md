@@ -45,7 +45,7 @@ From the [Download](#download-it) section, we’ll start by grabbing the **Pokem
 * Now place the SD Card into your printer and push down until it clicks into place. This should cause the Printer to beep twice, telling you it found the "autoprint.pcode" file and it's starting the print.
 * After the printing process begins, the extruder needs to heat up to temperature before it starts, you want to pay attention to the first couple layers of filament.
 * If the first couple layers aren't sticking to the bed, like the extruder is just dragging them around, you need to eject to the SD card so that the printer stops right away. You want the first layer to have a flat top, but not so flat that you can can see the build plate underneath it (unless you are using transparent filaments, then that’s a different story).
-* Here’s an example of a good first layer ![Good first layer](chapter-05-first-print/img/first-layer-pass_1_samuel_irons.jpg) *Image provided by Samuel Irons*</div>
+* Here’s an example of a good first layer ![Good first layer](chapter-05-first-print/img/first-layer-pass.jpg)
 * Here’s a couple examples of bad first layers. The ones on the left and right had barely enough sticking power to keep it from sticking to the nozzle, but the one in the center wasn’t so lucky. This is why you want to ensure the nozzle is exactly the right distance from the build plate. If you run into these type of issues you may need to go back to the [Set Nozzle Distance](#set-nozzle-distance) section and adjust some more. ![First layer fails](chapter-05-first-print/img/first-layer-fails.jpg)
 
 
