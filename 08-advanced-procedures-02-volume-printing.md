@@ -16,7 +16,7 @@ Now let’s begin the meticulous process of adjusting the offset screws to maxim
 > ##### WARNING {.warning}
 > Just like when you had went through the process to [Set Nozzle Distance](#set-nozzle-distance), you will want to do this with a cold nozzle.
 
-* Loosen all the locking nuts with a wrench, I didn’t have one small enough to fit so I just used an adjustable wrench for this. ![Use an adjustable wrench](chapter-08-advanced-procedures/max-volume-printing/img/trinus-adjustable-wrench.png)
+* Loosen all the locking nuts with a wrench.  Ideally you'll use a 5.5mm open-ended or combination wrench, as it allows you to work within the enclosure.  I didn’t have one small enough to fit so I just used an adjustable wrench for this. ![Use an adjustable wrench](chapter-08-advanced-procedures/max-volume-printing/img/trinus-adjustable-wrench.png)
 * The locking nut on the Y axis (slider holding your bed) is a tough nut to reach. If you don’t want to remove the bed itself, then you can simply unscrew the slider to give you more room to loosen the nut, and install the helper tool. ![Y-axis slider](chapter-08-advanced-procedures/max-volume-printing/img/trinus-y-axis-slider-locking-screw.png)
 * Now that we have things all prepped, it’s time to start tweaking the offset screws. 
 * For this part I found that loosening the locking nut (via the helper tool), then adjusting the screws about 2 turns.
